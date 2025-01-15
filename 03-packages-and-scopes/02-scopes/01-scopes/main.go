@@ -13,6 +13,8 @@ import "fmt"
 
 // package scope
 const ok = true
+const balls = "balls"
+
 
 // package scope
 func main() { // block scope starts
@@ -20,6 +22,6 @@ func main() { // block scope starts
 	var hello = "Hello"
 
 	// hello and ok are visible here
-	fmt.Println(hello, ok)
+	fmt.Println(hello, balls, ok)
 
 } // block scope ends

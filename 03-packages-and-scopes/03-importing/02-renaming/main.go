@@ -10,8 +10,10 @@ package main
 
 import "fmt"
 import f "fmt"
+import firmings "fmt"
 
 func main() {
 	fmt.Println("Hello!")
 	f.Println("There!")
+	firmings.Println("this is also acceptable")
 }

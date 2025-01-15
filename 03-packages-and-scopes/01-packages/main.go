@@ -23,4 +23,6 @@ func main() {
 
 	bye()
 	hey()
+	hej()
+
 }

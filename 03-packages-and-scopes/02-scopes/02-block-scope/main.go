@@ -14,7 +14,7 @@ func nope() { // block scope starts
 	const ok = true
 	var hello = "Hello"
 
-	_ = hello
+	_ = hello // because this value is then dropped 
 } // block scope ends
 
 func main() { // block scope starts

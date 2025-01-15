@@ -15,7 +15,9 @@ func main() {
 
 	// two files belong to the same package
 	// calling `bye()` of bye.go here
-	bye()
+	bye();
+	hej();
+    hey();
 }
 
 // EXERCISE: Remove the comments from the below function
