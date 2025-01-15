@@ -28,5 +28,14 @@ package main
 //        inside the hello function
 // ---------------------------------------------------------
 
+import (
+    "fmt"
+)
+
 func main() {
+    hello();
+}
+
+func bye(){
+    fmt.Println("bye bye");
 }

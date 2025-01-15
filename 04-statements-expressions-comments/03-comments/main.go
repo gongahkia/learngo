@@ -11,6 +11,8 @@ package main
 
 import "fmt"
 
+// this line below here is just a docstring
+
 /*
 main function
 Go executes this program using this function.

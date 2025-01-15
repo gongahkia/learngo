@@ -18,5 +18,15 @@ package main
 //
 // ---------------------------------------------------------
 
+import (
+    "fmt"
+)
+
 func main() {
+    const this = "this";
+    const is = "is";
+    const terrible = "great";
+    fmt.Println(this + is + terrible);
+    fmt.Println("not the main learning objective but note that here, the use of commas automatically includes spaces while the addition operator does not, just like Python");
+    fmt.Println(this, is, terrible);
 }

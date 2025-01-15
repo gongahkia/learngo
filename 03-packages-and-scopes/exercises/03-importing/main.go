@@ -21,12 +21,12 @@ package main
 //  hi
 // ---------------------------------------------------------
 
-// ?
-// ?
-// ?
+import balls "fmt"
+import triangle "fmt"
+import square "fmt"
 
 func main() {
-	// ?
-	// ?
-	// ?
+    balls.Println("great once");
+    triangle.Println("great twice");
+    square.Println("great thrice");
 }

@@ -10,7 +10,7 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+	"runtime" // observe the multi-import here
 )
 
 func main() {

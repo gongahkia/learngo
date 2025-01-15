@@ -13,5 +13,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello"); fmt.Println("World!")
+	fmt.Println("Hello"); fmt.Println("World!"); fmt.Println("This way you can chain multiple lines of code wahooo"); hej();
 }

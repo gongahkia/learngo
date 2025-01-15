@@ -10,6 +10,7 @@ package main
 
 import (
 	"fmt"
+	// just observe for now that you can import multiple things with brackets like this
 )
 
 func main() {

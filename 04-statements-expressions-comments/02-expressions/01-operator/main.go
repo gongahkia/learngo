@@ -13,5 +13,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello!" + "!")
+	fmt.Println("Hello!" + "!");
+	fmt.Println("For easy" + "string concatentaion");
+	fmt.Println("Observe that we need to manually specify spaces if we want to concatenate strings");
+	fmt.Println("Just" + " like" + " this");
 }
