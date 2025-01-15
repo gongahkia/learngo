@@ -21,7 +21,7 @@ func main() {
 	// var safe bool = true
 
 	// OPTION #2
-	var safe = true
+	var safe = true // automatic go type inference
 
 	fmt.Println(safe)
 }

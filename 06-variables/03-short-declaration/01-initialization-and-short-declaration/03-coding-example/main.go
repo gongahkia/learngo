@@ -35,6 +35,6 @@ func main() {
 	//   to the newly declared variable
 	//
 	// The type of the name2 variable is `string` now
-	name2 := name
+	name2 := name // basically type inference extends to variable assignment as well
 	fmt.Println(name2)
 }

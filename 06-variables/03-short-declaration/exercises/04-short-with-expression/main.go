@@ -21,8 +21,12 @@ package main
 
 func main() {
 	// ADD YOUR DECLARATION HERE
-	//
+
+    sum := 27 + 3.5;
 
 	// THEN UNCOMMENT THE CODE BELOW
-	// fmt.Println(sum)
+
+	fmt.Println(sum)
+
+	// due to float and integer addition, go will automatically recognise sum as a float datetype
 }

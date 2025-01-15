@@ -29,7 +29,7 @@ func main() {
 	//
 	// true's default type is bool
 	// so, the type of the safe variable becomes a bool
-	safe := true
+	safe := true // this features both type and identifier inference wahoo
 
 	fmt.Println(safe)
 }

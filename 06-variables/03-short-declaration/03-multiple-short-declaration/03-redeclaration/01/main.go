@@ -23,7 +23,9 @@ func main() {
 	// at least one of the variables
 	// should be a new variable
 
-	safe, speed := true, 50
+    speed := 450;
+
+	safe, speed := true, 50;
 
 	fmt.Println(safe, speed)
 

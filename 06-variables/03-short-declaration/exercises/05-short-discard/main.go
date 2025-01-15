@@ -28,9 +28,11 @@ package main
 
 func main() {
 	// ADD YOUR DECLARATIONS HERE
-	//
+
+    on, off := true, true;
+    balls, _ := on, off;
 
 	// THEN UNCOMMENT THE CODE BELOW
 
-	// fmt.Println(on)
+	fmt.Println(balls);
 }
