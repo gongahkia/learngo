@@ -66,4 +66,7 @@ func main() {
 
 	// COMMENT-OUT ALL THE CODE ABOVE, THEN,
 	// ADD YOUR OWN SOLUTIONS BELOW
+
+    // we're just going to assume i already know how to do this because otherwise i'd be a bit silly
+
 }

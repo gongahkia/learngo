@@ -23,7 +23,7 @@ func main() {
 	//   var speed int
 	//   var velocity int
 	//
-	var speed, velocity int
+	var speed, velocity int // notice the above can also be declared in the same line
 
 	fmt.Println(speed, velocity)
 }

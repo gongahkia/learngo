@@ -13,5 +13,5 @@ func main() {
 
 	// let's assign the variable to the blank-identifier
 	// so that Go compiler won't get grumpy
-	_ = speed
+	_ = speed // this is called the BLANK identifier
 }

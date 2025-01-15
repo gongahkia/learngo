@@ -22,6 +22,8 @@ func main() {
 	fmt.Println(heat)
 	fmt.Println(off)
 
+    // basically conclusions we derived from above already
+
 	// I've used printf to print an empty string
 	// EXERCISE: Use Println to see what happens
 	fmt.Printf("%q\n", brand)

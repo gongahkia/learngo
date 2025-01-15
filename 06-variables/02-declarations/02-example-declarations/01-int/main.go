@@ -11,13 +11,17 @@ package main
 import "fmt"
 
 func main() {
+
 	var nFiles int
 	var counter int
 	var nCPU int
+
+    // observe that these values are automatically assigned the value of 0 if left unspecified
 
 	fmt.Println(
 		nFiles,
 		counter,
 		nCPU,
 	)
+
 }

@@ -11,9 +11,12 @@ package main
 import "fmt"
 
 func main() {
+
 	var off bool
 	var valid bool
 	var closed bool
+
+    // if left unspecified, boolean variables are assigned the value of false if left unspecified
 
 	fmt.Println(
 		off,

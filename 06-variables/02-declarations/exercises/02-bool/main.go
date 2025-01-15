@@ -19,7 +19,11 @@ package main
 //  false
 // ---------------------------------------------------------
 
+import (
+    "fmt"
+)
+
 func main() {
-	// var ? ?
-	// ?
+    var isOn = false;
+    fmt.Println(isOn);
 }

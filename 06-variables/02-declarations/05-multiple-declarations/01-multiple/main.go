@@ -23,4 +23,7 @@ func main() {
 	fmt.Println(heat)
 	fmt.Println(off)
 	fmt.Printf("%q\n", brand)
+
+    // nothing new here that we haven't seen before
+
 }

@@ -27,8 +27,12 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// var (
-	//   ?
-	// )
-	// fmt.Println(active, delta)
+	var (
+	    active bool
+	    delta int
+	);
+    active = false;
+    delta = 0;
+    // note that value assignment here is technically unneccesary
+	fmt.Println(active, delta);
 }

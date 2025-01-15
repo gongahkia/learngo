@@ -21,6 +21,6 @@ func main() {
 	// Unicode letters are allowed
 	var 速度 int
 
-	// keep the compiler happy
+	// keep the compiler happy by specifying these values are being assigned to values that will be dropped in the future
 	_, _, _, _ = speed, SpeeD, _speed, 速度
 }

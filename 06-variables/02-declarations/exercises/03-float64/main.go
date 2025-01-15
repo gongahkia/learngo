@@ -19,7 +19,11 @@ package main
 //  0
 // ---------------------------------------------------------
 
+import (
+    "fmt"
+)
+
 func main() {
-	// var ? ?
-	// ?
+    var brightness = 0.000;
+    fmt.Println(brightness);
 }

@@ -20,9 +20,9 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// First print it:
-	// fmt.Println(?)
 
-	// Then declare it:
-	// var ? ?
+	fmt.Println(balls)
+
+    var balls bool = false;
+
 }

@@ -11,9 +11,12 @@ package main
 import "fmt"
 
 func main() {
+
 	var heat float64
 	var ratio float64
 	var degree float64
+
+    // similarly these values are also assigned to zero if left unspecified upon initialisation
 
 	fmt.Println(
 		heat,

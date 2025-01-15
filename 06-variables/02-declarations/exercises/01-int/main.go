@@ -19,7 +19,11 @@ package main
 //  0
 // ---------------------------------------------------------
 
+import (
+    "fmt"
+)
+
 func main() {
-	// var ? ?
-	// ?
+    var height = 0;
+    fmt.Println(height);
 }

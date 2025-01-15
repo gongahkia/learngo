@@ -23,6 +23,16 @@ package main
 //
 // ---------------------------------------------------------
 
+import (
+    "fmt"
+)
+
 func main() {
-	// Use fmt.Println()
+
+    fmt.Println(10, 12, 14, 16, 18, 20);
+    fmt.Println(1.09032837, 323.323);
+    fmt.Println(true, false);
+    fmt.Println("gongahkia");
+    fmt.Println("私はとてもハンサムです");
+
 }

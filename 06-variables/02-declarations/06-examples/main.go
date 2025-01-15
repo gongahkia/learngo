@@ -14,6 +14,8 @@ func main() {
 	// names are case-sensitive:
 	// MyAge, myAge, and MYAGE are different variables
 
+    // this above here ^^^ might be the MOST IMPORTANT LINE in the entire document
+
 	// USE-CASE:
 	// When to use a parallel declaration?
 	//

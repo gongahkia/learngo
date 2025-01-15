@@ -8,13 +8,17 @@
 
 package main
 
+import (
+    "fmt"
+)
+
 // there's no warning for package-level vars
 var packageLevelVar string
 
 func main() {
-	// unused variable error
-	// var speed int
 
-	// if you use it, the error will be gone
+	// unused variable error
+	var speed int
+
 	// fmt.Println(speed)
 }

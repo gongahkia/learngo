@@ -26,11 +26,9 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ADD YOUR DECLARATION HERE
-	//
 
-	// REPLACE THE QUESTION-MARKS BELOW
-	// WITH THE NAME OF YOUR VARIABLES
+    var firstName, lastName string;
 
-	// fmt.Printf("%q %q\n", ?, ?)
+	fmt.Printf("%q %q\n", firstName, lastName)
+
 }
