@@ -32,6 +32,9 @@ func main() {
 
 	// ADD YOUR CODE BELOW
 
+	lang = "go"
+	version = 2
+
 	// DO NOT TOUCH THIS
 	fmt.Println(lang, "version", version)
 }

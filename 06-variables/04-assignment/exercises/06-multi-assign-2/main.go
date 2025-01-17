@@ -25,14 +25,27 @@ package main
 //  It is 19.5 degrees
 // ---------------------------------------------------------
 
+import (
+	"strconv"
+	"fmt"
+)
+
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	// var (
-	// 	planet string
-	// 	isTrue bool
-	// 	temp   float64
-	// )
+	var (
+		planet string
+		isTrue bool
+		temp   float64
+	)
 
 	// ADD YOUR CODE BELOW
+
+	planet = "Mars"
+	isTrue = true
+	temp = 19.5
+
+	fmt.Println("Air is good on" + planet);
+	fmt.Println("It's " + strconv.FormatBool(isTrue))
+    fmt.Printf("It is %.1f degrees\n", temp)
 }
