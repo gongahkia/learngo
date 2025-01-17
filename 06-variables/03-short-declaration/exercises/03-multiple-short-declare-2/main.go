@@ -20,6 +20,11 @@ package main
 //  42 good
 // ---------------------------------------------------------
 
+
+import (
+	"fmt"
+)
+
 func main() {
 	// ADD YOUR DECLARATIONS HERE
 

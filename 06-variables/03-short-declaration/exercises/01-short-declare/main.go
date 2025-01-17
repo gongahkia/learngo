@@ -18,6 +18,11 @@ package main
 //  i: 314 f: 3.14 s: Hello b: true
 // ---------------------------------------------------------
 
+
+import (
+	"fmt"
+)
+
 func main() {
 	// ADD YOUR DECLARATIONS HERE
 

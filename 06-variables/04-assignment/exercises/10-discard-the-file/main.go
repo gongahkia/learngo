@@ -30,6 +30,6 @@ import (
 func main() {
 	// UNCOMMENT THE CODE BELOW:
 
-	one, _ := path.Split("secret/file.txt")
+	one, _ := path.Split("secret/file.txt") // array destructuring 
 	fmt.Println(one)
 }

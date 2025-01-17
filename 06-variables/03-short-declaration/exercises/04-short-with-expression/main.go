@@ -19,6 +19,10 @@ package main
 //  30.5
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+)
+
 func main() {
 	// ADD YOUR DECLARATION HERE
 

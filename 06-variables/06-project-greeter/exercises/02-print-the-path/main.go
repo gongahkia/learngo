@@ -22,5 +22,12 @@ package main
 //  myprogram
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+	"os"
+)
+
 func main() {
+	path := os.Args;
+	fmt.Println(path);
 }

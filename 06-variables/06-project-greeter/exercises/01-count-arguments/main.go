@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Count the Arguments
 //
@@ -22,8 +27,9 @@ package main
 
 func main() {
 	// UNCOMMENT & FIX THIS CODE
-	// count := ?
+	var inp string = "bilbo balbo bungo"
+	count := len(strings.Split(inp, " "))
 
 	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
-	// fmt.Printf("There are %d names.\n", count)
+	fmt.Printf("There are %d names.\n", count)
 }
