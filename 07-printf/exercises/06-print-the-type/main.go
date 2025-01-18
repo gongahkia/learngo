@@ -17,6 +17,10 @@ package main
 //  Type of 3 is int
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+)
+
 func main() {
-	// ?
+	fmt.Printf("Type of %d is %[1]T\n", 3)
 }

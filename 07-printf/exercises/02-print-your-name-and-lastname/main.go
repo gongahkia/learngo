@@ -23,7 +23,8 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// BONUS: Use a variable for the format specifier
 
-	// fmt.Printf("?", ?, ?)
+	firstname, lastname := "gongahkia", "squared";
+	fmt.Printf("My name is %s and my lastname is %s\n", firstname, lastname);
+
 }

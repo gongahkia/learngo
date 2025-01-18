@@ -22,5 +22,6 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ?
+	temperature := 29.5;
+	fmt.Printf("Temperature is %.1f degrees.\n", temperature);
 }

@@ -34,4 +34,6 @@ package main
 func main() {
 	// get your name from the command-line
 	// and print it
+	fmt.Println("Hello", os.Args[1]);
+	fmt.Println("How are you?");
 }

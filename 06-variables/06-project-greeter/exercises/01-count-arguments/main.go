@@ -27,8 +27,8 @@ import (
 
 func main() {
 	// UNCOMMENT & FIX THIS CODE
-	var inp string = "bilbo balbo bungo"
-	count := len(strings.Split(inp, " "))
+	// count := len(strings.Split(os.Args, " ")) - 1; // there is no need to manually split the strings, the os.args[] handsles this simple tokenisation for you
+	count := len(os.Args) - 1
 
 	// UNCOMMENT IT & THEN DO NOT TOUCH THIS CODE
 	fmt.Printf("There are %d names.\n", count)

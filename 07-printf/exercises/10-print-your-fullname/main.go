@@ -22,5 +22,8 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// BONUS: Use a variable for the format specifier
+	name, lastname := os.Args[1], os.Args[2];
+	combined = name + lastname;
+	msg := "Your first name is %s and your last name is %s.\nHello `%s`!\n";
+	fmt.Printf(msg, name, lastname, combined);
 }

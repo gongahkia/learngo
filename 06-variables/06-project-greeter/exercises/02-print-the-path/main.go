@@ -28,6 +28,5 @@ import (
 )
 
 func main() {
-	path := os.Args;
-	fmt.Println(path);
+	fmt.Println(os.Args[0]);
 }

@@ -23,5 +23,7 @@ func main() {
 	// tf := false
 
 	// TYPE YOUR CODE HERE
-	// ?
+
+	theBoolean := false
+	fmt.Printf("These are %t claims.\n", theBoolean)
 }
