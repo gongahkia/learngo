@@ -43,38 +43,14 @@ import (
 // ---------------------------------------------------------
 
 func main() {
-	// --------------------------------------
-	// EXAMPLE:
-	// --------------------------------------
-	// How to get an int8 from command-line:
-	// First argument should be a value of -128 to 127 range
-	//
-	// Second argument: 10 means decimal number
-	// Third argument : 8 means 8-bits (int8)
-	val, _ := strconv.ParseInt(os.Args[1], 10, 8)
-
-	// Now the val variable is int64 because ParseInt
-	// returns an int64. But, since I passed 8 as its third
-	// argument, it returns int8 convertable value.
-	//
-	// Try running the program with a value of -128 to 127
-	// Running it beyond that range will result in
-	// either -128 or 127.
-	fmt.Println("int8 value is:", int8(val))
-
-	// --------------------------------------
-	// NOW IT'S YOUR TURN!
-	// --------------------------------------
-
-	// 1. Get an int16 value using ParseInt and convert it and print it
-
-	// 2. Get an int32 value using ParseInt and convert it and print it
-
-	// 3. Get an int64 value using ParseInt and convert it and print it
-
-	// 4. Get an int8 value using ParseInt and convert it and print it
-	//    But this time, get the value in bits.
-	//
-	//    For example : 00000100
-	//    Should print: 4
+	val, _ := strconv.ParseInt(os.Args[1], 10, 8);
+	fmt.Println("int8 value is :", int8(val));
+	val, _ = strconv.ParseInt(os.Args[2], 10, 16);
+	fmt.Println("int16 value is:", int16(val));
+	val, _ = strconv.ParseInt(os.Args[3], 10, 32);
+	fmt.Println("int32 value is:", int32(val));
+	val, _ = strconv.ParseInt(os.Args[4], 10, 64);
+	fmt.Println("int64 value is:", val);
+	val, _ = strconv.ParseInt(os.Args[5], 2, 8);
+	fmt.Printf("%s is: %d\n", os.Args[5], int8(val));
 }
