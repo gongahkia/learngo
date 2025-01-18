@@ -20,9 +20,14 @@ package main
 //  tau = 6.283185307179586
 // ---------------------------------------------------------
 
-func main() {
-	// What's the problem with this code?
-	// Why it doesn't work?
+import (
+	"fmt"
+)
 
-	// const pi, tau = 3.14159265358979323846264, pi * 2
+func main() {
+	const (
+		pi  = 3.14159265358979323846264
+		tau = pi * 2
+	);
+	fmt.Printf("tau = %g\n", tau);
 }
