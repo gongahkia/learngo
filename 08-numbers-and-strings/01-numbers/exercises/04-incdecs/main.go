@@ -22,13 +22,18 @@ package main
 //  -75
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+)
+
 func main() {
-	// DO NOT TOUCH THIS
-	counter, factor := 45, 0.5
-
-	// TYPE YOUR CODE BELOW
-	// ...
-
-	// LASTLY: REMOVE THE CODE BELOW
-	_, _ = counter, factor
+	counter, factor := 45, 0.5;
+	counter++;
+	counter++;
+	counter++;
+	counter++;
+	counter++;
+	factor--;
+	factor--;
+	fmt.Println(float64(counter) * factor);
 }

@@ -32,12 +32,16 @@ import "fmt"
 //  10
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+)
+
 func main() {
-	// DO NOT CHANGE THE CODE BELOW
-	var counter int
-
-	// TYPE YOUR CODE HERE
-
-	// DO NOT CHANGE THE CODE BELOW
-	fmt.Println(counter)
+	var counter int;
+	counter++;
+	counter--;
+	counter += 5;
+	counter *= 10;
+	counter /= 5;
+	fmt.Println(counter);
 }

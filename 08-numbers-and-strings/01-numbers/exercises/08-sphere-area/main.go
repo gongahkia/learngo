@@ -36,12 +36,16 @@ import (
 //    36915.47
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+	"math"
+	"os"
+	"stringconv"
+)
+
 func main() {
-	var radius, area float64
-
-	// ADD YOUR CODE HERE
-	// ...
-
-	// DO NOT TOUCH THIS
-	fmt.Printf("radius: %g -> area: %.2f\n", radius, area)
+	var radius, area float64;
+	radius, _ = strconv.ParseFloat(os.Args[1], 64);
+	area = 4 * math.Pi * math.Pow(radius, 2);
+	fmt.Printf("radius: %g -> area: %.2f\n", radius, area);
 }
